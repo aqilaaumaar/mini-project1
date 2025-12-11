@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="project1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>  
+        <title>About Liverpool - McCole Analyst</title>
+    </head>
+    <body class="dark-mode">
+        <header>
+            <nav class="container">
+                <a href="#" class="brand-name">Liverpool FC</a>
+                <div class="nav-links">
+                    <a href="#championship">Kejuaraan</a>
+                    <a href="#">Premier League</a>
+                    <button id="tombol-mode">Ubah Mode</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero-text">
+                    <h1><span>Liverpool</span> is The Best Team!</h1>
+                    <p>Liverpool Football Club /ˈlɪvərpuːl/ (dikenal pula sebagai Liverpool atau The Reds) adalah sebuah klub sepak bola profesional asal Inggris yang berbasis di Liverpool. Didirikan pada tahun 1892, Liverpool kemudian bergabung dengan Football League di tahun berikutnya dan sejak pembentukannya memainkan pertandingan kandang mereka di Stadion Anfield yang terletak sekitar 4,8 km dari pusat kota.</p>
+                    <a href="#championship" class="btn">Read More!</a>
+                </div>
+                <div class="hero-image">
+                    <img src="liverpool_f.c.-logo_brandlogos.net_vr9dx.png" alt="ipul">
+                </div>
+            </section>
+            <section id="championship">
+                <h2><span>Liverpool's</span> Championship</h2>
+                <div>
+                    <article class="championship-article">
+                        <h3>UEFA Champions League</h3>
+                        <p>Liverpool dikenal sebagai salah satu klub tersukses di Eropa. Mereka telah menjuarai Liga Champions UEFA sebanyak 6 kali (1977, 1978, 1981, 1984, 2005, dan 2019). Momen paling legendaris adalah final Istanbul 2005, ketika The Reds bangkit dari ketertinggalan 0-3 melawan AC Milan dan akhirnya menang lewat adu penalti. Gelar terakhir mereka di Eropa datang pada tahun 2019 saat mengalahkan Tottenham Hotspur 2-0 di final.</p>
+                    </article>
+                    <article class="championship-article">
+                        <h3>English Premier League</h3>
+                        <p>Liverpool sudah mengoleksi 19 gelar liga secara total. Dari jumlah itu, 18 gelar diraih pada era First Division (sebelum 1992), sedangkan 1 gelar Premier League modern mereka menangkan pada musim 2019/20 di bawah Jürgen Klopp, mengakhiri penantian 30 tahun.</article>
+                    <article class="championship-article">
+                        <h3>FA Cup</h3>
+                        <p>Liverpool juga memiliki tradisi kuat di FA Cup, turnamen sepak bola tertua di dunia. Mereka telah memenangkan trofi ini 8 kali, dengan gelar terbaru datang pada 2022. Pada final tersebut, Liverpool mengalahkan Chelsea lewat drama adu penalti di Stadion Wembley. FA Cup menjadi salah satu bukti konsistensi Liverpool sebagai klub besar yang mampu bersaing di berbagai ajang domestik maupun internasional.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+        <script>
+            const tombol = document.querySelector("#tombol-mode");
+            const body = document.querySelector(".dark-mode");  
+            tombol.addEventListener("click", function () {
+                document.body.classList.toggle('dark-mode');
+            })
+        </script>
+        <footer>© 2025 McCole Analyst. Semua Hak Cipta Dilindungi.</footer>
+    </body>    
+</html>
